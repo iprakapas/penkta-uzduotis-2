@@ -1,63 +1,63 @@
 table, td {
     border-collapse: separate;
-    border-spacing: 80px;
+    border-spacing: 8px;
 }
 
 tr:nth-child(odd) td:nth-child(even) {
-    width: 300px;
-    height: 300px;
+    width: 30px;
+    height: 30px;
     background: #F05712;
-    border: 20px solid #2CD64D;
-    margin: 300px;
+    border: 2px solid #2CD64D;
+    margin: 30px;
 }
 tr:nth-child(even) td:nth-child(odd) {
-    width: 300px;
-    height: 300px;
+    width: 30px;
+    height: 30px;
     background: #F05712;
-    border: 20px solid #2CD64D;
-    margin: 300px;
+    border: 2px solid #2CD64D;
+    margin: 30px;
 }
 
 tr:nth-child(odd) td:nth-child(odd) {
-    width: 300px;
-    height: 300px;
+    width: 30px;
+    height: 30px;
     background: #2CD64D;
-    border: 20px solid #F05712;
-    margin: 300px;
+    border: 2px solid #F05712;
+    margin: 30px;
 }
 
 tr:nth-child(even) td:nth-child(even) {
-    width: 300px;
-    height: 300px;
+    width: 30px;
+    height: 30px;
     background: #2CD64D;
-    border: 20px solid #F05712;
-    margin: 300px;
+    border: 2px solid #F05712;
+    margin: 30px;
 }
 
 tr:nth-child(odd) td:nth-child(even) div{
-    width: 140px;
-    height: 140px;
+    width: 14px;
+    height: 14px;
     background: #2CD64D;
-    margin: 100px;
+    margin: 10px;
 }
 
 tr:nth-child(even) td:nth-child(odd) div{
-    width: 140px;
-    height: 140px;
+    width: 14px;
+    height: 14px;
     background: #2CD64D;
-    margin: 100px;
+    margin: 10px;
 }
 
 tr:nth-child(odd) td:nth-child(odd) div{
-    width: 140px;
-    height: 140px;
+    width: 14px;
+    height: 14px;
     background: #F05712;
-    margin: 100px;
+    margin: 10px;
 }
 
 tr:nth-child(even) td:nth-child(even) div{
-    width: 140px;
-    height: 140px;
+    width: 14px;
+    height: 14px;
     background: #F05712;
-    margin: 100px;
+    margin: 10px;
 }
